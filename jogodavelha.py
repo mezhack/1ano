@@ -95,9 +95,9 @@ def salvar_placar(jogador):
         placar = json.load(f)
     with open("placar.json", "w") as f:
         if jogador == "x":
-            placar["x"] = placar["x"] + 1
+            placar["x"] = placar["x"] + 5
         elif jogador == "o":
-            placar["o"] = placar["o"] + 1
+            placar["o"] = placar["o"] + 5
         else:
             print("Jogador invalido para salvar placar.")
             return
