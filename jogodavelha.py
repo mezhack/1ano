@@ -112,9 +112,5 @@ def novo_jogador(nome):
 
     return  nome
 
-def multiplayer ()
-    jogador1 = novojogador(1)
-    jogador2 = novojoador(2)
-
 
 jogar()
